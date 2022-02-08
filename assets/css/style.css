@@ -15,7 +15,8 @@ body {
 
 a {
   color: #ffc451;
-  text-decoration: none;
+
+  text-align:center;
 }
 
 a:hover {
@@ -27,6 +28,25 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -429,12 +449,12 @@ h1, h2, h3, h4, h5, h6 {
     height: auto;
   }
   #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
+    font-size: 12px;
+    line-height: 16px;
   }
   #hero h2 {
     font-size: 20px;
-    line-height: 24px;
+    line-height: 20px;
   }
 }
 
@@ -538,33 +558,6 @@ section {
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
-.features {
-  padding-top: 20px;
-}
-.features .icon-box {
-  padding-left: 15px;
-}
-.features .icon-box h4 {
-  font-size: 20px;
-  font-weight: 700;
-  margin: 5px 0 10px 60px;
-}
-.features .icon-box i {
-  font-size: 48px;
-  float: left;
-  color: #ffc451;
-}
-.features .icon-box p {
-  font-size: 15px;
-  color: #848484;
-  margin-left: 60px;
-}
-.features .image {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 400px;
-}
 
 /*--------------------------------------------------------------
 # Services
