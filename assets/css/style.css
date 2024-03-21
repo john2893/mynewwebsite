@@ -15,7 +15,6 @@ body {
 
 a {
   color: #ffc451;
-
   text-align:center;
 }
 
@@ -77,6 +76,19 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
+}
+
+/*----------------------------------------------
+# chords
+------------------------------------------------*/
+a.chords {
+  color: black;
+  text-decoration: none;
+}
+
+a.chords:hover {
+  color: blue; /* Color on hover */
+  font-weight: bold;
 }
 
 /*--------------------------------------------------------------
